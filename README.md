@@ -1,5 +1,5 @@
 # Primatetype
-A project created by Kaesar, Deven, and Wilson. Inspired by [monkeytype.com](url), we decided to make our own version on command-line and the web.
+A project created by Kaesar, Deven, and Wilson. Inspired by [monkeytype.com], we decided to make our own version on command-line and the web.
 # Installation
 To be decided
 # Contribution
