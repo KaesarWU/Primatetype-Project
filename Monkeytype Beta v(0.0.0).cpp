@@ -19,7 +19,7 @@ std::string generateRandomSentence(int wordCount) {
         "leap", "forest", "tree", "climb", "adventure", "chatter", "wild", "rainforest", "grape", "cheeky",
         "swift", "banana", "tree", "acrobatic", "jungle", "forage", "quick", "nimble", "dexterous", "fruit",
         "explore", "mischievous", "wander", "leaf", "canopy", "branch", "sunlight", "banana", "nature", "primate",
-        "monkey", "banana", "jungle", "swing", "playful", "tropical", "primate", "agile", "intelligent", "curious"
+        "monkey", "banana", "jungle", "swing", "playful", "tropical", "primate", "agile", "intelligent", "curious", "Wilsonwei123", "bbi-dev", "KaesarWU", "c++", "22"
     };
     std::random_device rd;
     std::mt19937 g(rd());
