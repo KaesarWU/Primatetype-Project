@@ -136,6 +136,9 @@ int main() {
 
         clearClipboard();
 
+        std::cout << "Click enter to begin\n";
+        std::cin.ignore();
+        
         auto start = std::chrono::steady_clock::now();
         
         std::getline(std::cin, input);
@@ -146,13 +149,14 @@ int main() {
         std::chrono::duration<double> elapsed_seconds = end - start;
 
         double accuracy = calculateAccuracy(input, sentence);
-        double wpm = calculateWPM(elapsed_seconds.count(), wordCount) * (accuracy / 100);
+        double wpm = calculateWPM(elapsed_seconds.count(), wordCount);
         int errors = countErrors(input, sentence);
 
         std::cout << std::fixed << std::setprecision(2);
         std::cout << "Time taken: " << elapsed_seconds.count() << " seconds" << std::endl;
         std::cout << "Accuracy: " << accuracy << "%" << std::endl;
-        std::cout << "Words per minute: " << wpm << std::endl;
+        std::cout << "Raw words per minute: " << wpm << "\n";
+        std::cout << "Words per minute: " << wpm * (accuracy / 100) << std::endl;
         std::cout << "Errors: " << errors << std::endl;
 
         // Ask if the user wants to play again
