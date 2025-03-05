@@ -3,7 +3,7 @@ A project created by Kaesar, Deven, and Wilson. Inspired by [monkeytype.com], we
 # Installation
 Clone the repository
 ```
-git clone https://gtihub.com/KaesarWU/Primatetype-Project
+git clone https://github.com/KaesarWU/Primatetype-Project
 ```
 Then change to the directory ```cd Primatetype-Project``` and compile with ```g++ main.cpp -o primatetype -std=c++17```. Note that for windows you may first have to install a compiler. After all that, run the program with ```./primatetype``` for mac or ```primatetype.exe``` for windows.
 # Contribution
