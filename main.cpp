@@ -167,7 +167,7 @@ int main() {
         if (playAgain == 'n' || playAgain == 'N') {
             std::cout << "\nThanks for playing Primatetype!" << std::endl;
             std::cout << "Credits:\n";
-            std::cout << "Founders: Kaesar Wu, Wilson Wei, Deven Wei\n";
+            std::cout << "Creators: KaesarWu, wilsonwei123, bbi-dev\n";
             std::cout << "Sponsor: Ollie Ni\n";
         }
 
