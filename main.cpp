@@ -168,7 +168,6 @@ int main() {
             std::cout << "\nThanks for playing Primatetype!" << std::endl;
             std::cout << "Credits:\n";
             std::cout << "Creators: KaesarWu, wilsonwei123, bbi-dev\n";
-            std::cout << "Sponsor: Ollie Ni\n";
         }
 
     } while (playAgain == 'y' || playAgain == 'Y'); // Repeat if user wants to play again
