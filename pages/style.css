@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primate: rgb(226,182,20);
+}
+
+body {
+    background-color: rgb(48,52,55);
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav{
+    display:flex;
+}
+
+.card{
+    margin:5px;
+    width:250px;
+    background-color: rgb(100, 100, 100);
+    border: 5px solid var(--primate);
+}
+
+
+.btn:hover{
+    background-color: var(--primate);
+    border-color: yellow;
+    color:black;
+}
+
+.btn-primary{
+    background-color: var(--primate);
+    border-color: yellow;
+}
+
+.btn-primary:hover{
+    background-color: yellow;
+    border-color: var(--primate);
+}
+
+a{
+    color: var(--primate);
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: yellow;
+  }
+  
+::selection {
+    color: black;
+    background: yellow;
+}
+
+.main{
+    margin: 5px 5px 5px 5px;
+}
